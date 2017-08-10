@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>01</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		
+		var salario = parseFloat(prompt("Insira seu salário:"));
+		var calculo;
+		var valor;
+
+		
+		//Até 280
+		if(salario<=280){
+			calculo=(salario*20)/100;
+			valor=salario+calculo;
+
+		alert("Salário: "+salario+"\nPercentual de Aumento: 20%"+"\nValor do Aumento: "+calculo+"\nSalário Atual :"+valor);
+		
+		}
+
+		//Entre 280 e 700
+		if(salario>280 && salario<=700 ){
+     		calculo=(salario*15)/100;
+			valor=salario+calculo;
+
+		alert("Salário: "+salario+"\nPercentual de Aumento: 15%"+"\nValor do Aumento: "+calculo+"\nSalário Atual :"+valor);
+		
+		}
+		
+		//Entre 700 e 1500
+		if(salario>700 && salario<=1500 ){
+     		calculo=(salario*10)/100;
+			valor=salario+calculo;
+
+		alert("Salário: "+salario+"\nPercentual de Aumento: 10%"+"\nValor do Aumento: "+calculo+"\nSalário Atual :"+valor);
+		
+		}
+		
+		//Acima de 1500
+		if(salario>1500 ){
+     		calculo=(salario*10)/100;
+			valor=salario+calculo;
+
+		alert("Salário: "+salario+"\nPercentual de Aumento: 5%"+"\nValor do Aumento: "+calculo+"\nSalário Atual :"+valor);
+		
+		}
+		
+	</script>
+
+</body>
+</html>
